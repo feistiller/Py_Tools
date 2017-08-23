@@ -1,0 +1,39 @@
+01	<style>
+02	    /*======================图片横向轮播========================*/
+03	    .horizontalShuffling{
+04	        position: absolute;
+05	        z-index: 11111111111;
+06	        top: 45px;
+07	        height: 333px;
+08	        overflow: hidden;
+09	        width: 300px;
+10	        margin: 0px auto 0px;
+11	    }
+12	    #horizontalShuffling{
+13	        position:relative;
+14	        width: 1000px;
+15	        height: auto;
+16	        padding: 0;
+17	    }
+18	    #horizontalShuffling li{
+19	        float: left;
+20	        z-index: 0;
+21	        position: relative;
+22	        height: auto;
+23	        width: 300px;
+24	        cursor: pointer;
+25	        list-style-type: none;
+26	        border-radius: 4px;
+27	        box-shadow: 1px 1px 12px rgba(200, 200, 200, 1);
+28	        margin: 0;
+29	        +left:-40px; /* IE7 */
+30	    }
+31	    #horizontalShuffling li img{
+32	        width: 300px;
+33	        height: 333px;
+34	    }
+35	    #horizontalShufflingBtn{
+36	        position: relative;
+37	        top: 350px;
+38	    }
+39	</style>
